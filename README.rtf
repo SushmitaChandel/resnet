@@ -36,3 +36,35 @@ The test.py file in the tests folder can be run for evaluating the trained model
 
 Folder Structure
 ————————————
+## Folder Structure
+
+```
+├── src/
+│   ├── data_loader.py      # Data loading and preprocessing functions
+│   ├── models_src.py       # Model architecture
+│   ├── utils.py            # Utility functions
+│   ├── train.py            # Training loop and logic
+│
+├── models/
+│   └── trial/              # Contains .pth models and checkpoints
+│
+├── tests/
+│   └── test.py             # Unit tests
+│
+├── README.md               # Project overview and instructions
+│
+├── requirements.txt        # Library and Python version details
+│
+├── data/                   # Subset of the dataset used for training
+│   ├── F/  # Pure Ocean Waves (POW)
+│   ├── G/  # Wind Streaks (WS)
+│   ├── H/  # Micro Convective Cells (MCC)
+│   ├── I/  # Rain Cells (RC)
+│   ├── J/  # Biological Slicks (BS)
+│   ├── K/  # Sea Ice (SI)
+│   ├── L/  # Ice Bergs (IB)
+│   ├── M/  # Low Wind Areas (LWA)
+│   ├── N/  # Atmospheric Fronts (AF)
+│   └── O/  # Ocean Fronts (OF)
+```
+
